@@ -1,4 +1,12 @@
 {
+    //MACの場合はコメントアウト
+    "terminal.integrated.lineHeight": 1.2,
+    "editor.fontSize": 17,
+    "markdown.preview.fontSize": 17,
+    // ウィンドウ倍率(win -1.2 mac -1)
+    // "window.zoomLevel": -1,
+    "window.zoomLevel": -1.2
+    /////////////////////////////////////////////////////////
     "window.title": "${dirty}${folderName}${separator}",
     "editor.renderIndentGuides": true,
     "editor.rulers": [
@@ -43,10 +51,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "terminal.integrated.cursorWidth": 3,
-    "terminal.integrated.lineHeight": 1.2,
     "editor.lineHeight": 23,
-    "editor.fontSize": 17,
-    "markdown.preview.fontSize": 17,
     "terminal.integrated.fontSize": 14.5,
     "editor.columnSelection": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -67,8 +72,6 @@
     "debug.console.lineHeight": 24,
     "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p", // フォーマットしない要素を指定
     "html.format.unformatted": null, // インライン要素をフォーマットしない
-    // ウィンドウ倍率
-    "window.zoomLevel": -1,
     "debug.console.fontSize": 16,
     // font種類
     "terminal.integrated.fontFamily": "Source Han Code JP,‘Cascadia Code’, Consolas, ‘Courier New’",
@@ -237,9 +240,10 @@
     },
     "python.languageServer": "Microsoft"
 }
-// keybindings.jsonも同期する
+
+// macはuser下にリポジトリ保存中
 // 拡張機能一覧
-// PS C:\Users\tsue>  code --list-extensions
+// PS C:\Users>  code --list-extensions
 // abusaidm.html-snippets
 // batisteo.vscode-django
 // CoenraadS.bracket-pair-colorizer-2
